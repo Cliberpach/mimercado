@@ -1,0 +1,103 @@
+name: anvic
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  http: ^0.12.0+2
+  carousel_slider: ^1.3.0
+  photo_view: ^0.4.2
+  url_launcher: ^5.4.2
+  webview_flutter: ^0.3.5+3
+  shared_preferences: ^0.5.1+2
+  fluttertoast: ^3.0.3
+  geocoder: ^0.1.2
+  sliding_up_panel: ^0.3.4
+  google_maps_flutter: ^0.5.25
+  location: ^2.5.4
+  geolocator: ^5.3.0
+  datetime_picker_formfield: ^0.1.8
+  flutter_datetime_picker: ^1.2.1
+  flutter_svg: ^0.6.1
+  cached_network_image: ^2.0.0
+  share: ^0.6.2+1
+  flutter_picker:
+    git: git://github.com/yangyxd/flutter_picker.git
+  flutter_launcher_icons: ^0.7.2+1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter_icons:
+  ios: false
+  android: "ic_launcher"
+  image_path: "assets/template.png"
+
+flutter:
+
+  uses-material-design: true
+  fonts:
+    - family: GeoRegItalic
+      fonts:
+        - asset: assets/fonts/Geomanist-Regular-Italic.otf
+    - family: GeoReg
+      fonts:
+        - asset: assets/fonts/Geomanist-Regular.otf
+    - family: GeoLight
+      fonts:
+        - asset: assets/fonts/Geomanist-Light.otf
+    - family: GeoExtraLight
+      fonts:
+        - asset: assets/fonts/Geomanist-ExtraLight.otf
+    - family: GeoBook
+      fonts:
+        - asset: assets/fonts/Geomanist-Book.otf
+    - family: GeoBold
+      fonts:
+        - asset: assets/fonts/Geomanist-Bold.otf
+    - family: GeoBlack
+      fonts:
+        - asset: assets/fonts/Geomanist-Black.otf
+    - family: Pacifico
+      fonts:
+        - asset: assets/fonts/Pacifico-Regular.ttf
+    - family: PoiretOne
+      fonts:
+        - asset: assets/fonts/PoiretOne-Regular.ttf
+    - family: Ramabhadra
+      fonts:
+        - asset: assets/fonts/Ramabhadra-Regular.ttf
+    - family: FrancoisOne
+      fonts:
+        - asset: assets/fonts/FrancoisOne-Regular.ttf
+
+
+
+
+  assets:
+    - assets/img/logo.png
+    - assets/img/logo_circle.png
+    - assets/img/logo_png.png
+    - assets/img/avatar_man.png
+    - assets/img/avatar_woman.png
+    - assets/img/kake.png
+    - assets/img/place_package.png
+    - assets/img/place_product.png
+    - assets/img/select_address.png
+    - assets/img/pay/calender.png
+    - assets/img/pay/card_cvv.png
+    - assets/img/pay/visa.png
+    - assets/img/pay/jcb.png
+    - assets/img/pay/verve.png
+    - assets/img/pay/discover.png
+    - assets/img/pay/american_express.png
+    - assets/img/pay/dinners_club.png
+    - assets/img/pay/mastercard.png
+    - assets/img/error.png

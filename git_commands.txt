@@ -1,0 +1,11 @@
+git status
+git add .
+git commit -m "production 01"
+git push
+git status
+
+
+C:\src\flutter\bin\flutter build apk
+C:\src\flutter\bin\flutter pub get
+C:\src\flutter\bin\flutter clean
+C:\src\flutter\bin\flutter doctor
