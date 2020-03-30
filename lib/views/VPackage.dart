@@ -54,6 +54,8 @@ class _VPackageState extends State<VPackage> {
     });
     try {
       setState(() => _loading = true);
+      print(_pref.client_token);
+      print(idPackage);
       http.Response response = await http.post(
           "${_util.BASE_URL}/packages/package",
           body: ({"token": "${_pref.client_token}", "id": "${idPackage}"}));

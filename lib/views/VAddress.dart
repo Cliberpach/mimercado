@@ -41,6 +41,7 @@ class _VAddressState extends State<VAddress> {
       loadingRefresh = true;
     });
     try {
+      print("entra a agregar direccionnnn");
       http.Response response = await http.post("${util.BASE_URL}/client_points",
           body: ({"token": "${pref.client_token}"}));
       var rsp = jsonDecode(response.body);

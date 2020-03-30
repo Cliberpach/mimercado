@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Delivery_Trujillo\\deliveryapp\\build\\flutter_picker\\intermediates\\res\\merged\\release\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\Lester\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\b15f00a76a3ca166760319981e3d4241\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "D:\\Delivery_Trujillo\\deliveryapp\\build\\flutter_picker\\intermediates\\res\\merged\\release\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\Lester\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\b15f00a76a3ca166760319981e3d4241\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "D:\\Delivery_Trujillo\\deliveryapp\\build\\flutter_picker\\intermediates\\res\\merged\\release\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\Lester\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\b15f00a76a3ca166760319981e3d4241\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "D:\\Delivery_Trujillo\\deliveryapp\\build\\flutter_picker\\intermediates\\res\\merged\\release\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\Lester\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\b15f00a76a3ca166760319981e3d4241\\res\\drawable\\notification_tile_bg.xml"
+    }
+]

@@ -5,7 +5,7 @@
     android:versionName="1.0.10" >
 
     <uses-sdk
-        android:minSdkVersion="16"
+        android:minSdkVersion="18"
         android:targetSdkVersion="28" />
     <!--
          Flutter needs it to communicate with the running application
@@ -29,7 +29,7 @@
         android:roundIcon="@mipmap/ic_launcher_circle" >
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDlGwH94YniNG1BT7RzHLNWB9Pd9kx_8c0" />
+            android:value="AIzaSyA_YV6zGdrMGbIeXGgGt8AzEvjZQZtIVUE" />
 
         <activity
             android:name="com.trujilloapps.mimercado.MainActivity"

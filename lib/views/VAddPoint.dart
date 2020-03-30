@@ -44,6 +44,8 @@ class _VAddPointState extends State<VAddPoint> {
   Future _moveCamera(id) async{
     setState(() {_listComplete = [];});
     FocusScope.of(context).requestFocus(new FocusNode());
+    print(_pref.client_token);
+    print(id);
     try{
       http.Response response = await http.post(
         "${_util.BASE_URL}/map/place",
@@ -76,6 +78,10 @@ class _VAddPointState extends State<VAddPoint> {
       _loading = true;
     });
     try{
+      print(_pref.client_token);
+      print(q);
+      print(mapCenter.latitude);
+      print(mapCenter.longitude);
       http.Response response = await http.post(
         "${_util.BASE_URL}/map/autocomplete",
         body: ({
@@ -192,7 +198,7 @@ class _VAddPointState extends State<VAddPoint> {
 
   @override
   Widget build(BuildContext context) {
-
+    //aqui busca la direccion y no sale hame hame
     final search = Container(
       child: Column(
         children: <Widget>[
@@ -221,7 +227,7 @@ class _VAddPointState extends State<VAddPoint> {
                 fontSize: 20.0,
                 fontWeight: FontWeight.bold
               ),
-              onChanged: (q)=>_query(q),
+              onChanged: (q)=>_query(q),//yo creo k este es k me lleva al ladrireccion
             ),
           )
         ],
@@ -324,6 +330,7 @@ class _VAddPointState extends State<VAddPoint> {
             ),
             onPressed: (){
               Navigator.pop(context);
+              print("se va a direccion");
             },
           ),
         ),

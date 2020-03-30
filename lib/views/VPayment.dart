@@ -562,6 +562,7 @@ class _VPaymentState extends State<VPayment> {
               //onTap: () => _changeMethod(2),
             ),
           ),
+        ]
       ),
     );
 

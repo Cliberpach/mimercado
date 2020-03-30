@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Mar 23 13:44:26 COT 2020
+#Sun Mar 29 19:14:33 COT 2020
 5.base=D\:\\Delivery_Trujillo\\deliveryapp\\build\\app\\intermediates\\transforms\\mergeJniLibs\\debug\\0
 22.path=flutter_assets/kernel_blob.bin
 32.set=ASSET

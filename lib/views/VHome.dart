@@ -313,7 +313,7 @@ class _VHomeState extends State<VHome> {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
         GlobalText(
-          textTitle: "Promociones",
+          textTitle: "Packetes - Promocionales",
           textColor: Config.colorPrimary,
           textFontSize: 18,
           textFontWeight: FontWeight.w500,
