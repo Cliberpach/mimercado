@@ -179,8 +179,10 @@ class _VLoginState extends State<VLogin> {
     );
 
     final logoAnvic = Container(
-      height: 160,
+      height: 320,
+
       decoration: BoxDecoration(
+
           image: DecorationImage(
         image: AssetImage("assets/img/logo_png.png"),
       )),

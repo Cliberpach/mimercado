@@ -1,4 +1,0 @@
-#Sun Mar 29 19:11:15 COT 2020
-base.0=D\:\\Delivery_Trujillo\\deliveryapp\\build\\app\\intermediates\\transforms\\r8\\release\\0
-path.0=classes.dex
-renamed.0=classes.dex
