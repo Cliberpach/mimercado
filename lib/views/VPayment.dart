@@ -533,7 +533,7 @@ class _VPaymentState extends State<VPayment> {
                     activeColor: Color(_util.colorDos),
                   ),
                   title: Text(
-                    "Efectivo / Aceptamos (Visa * MasterCard)",
+                    "Efectivo",
                     style: TextStyle(fontSize: 15.0),
                   ),
                 ),
@@ -554,12 +554,13 @@ class _VPaymentState extends State<VPayment> {
                     activeColor: Color(_util.colorDos),
                   ),
                   title: Text(
-                    "Tarjeta // NO ESTA ACTIVO X EL MOMENTO",
+                    "Tarjeta",
                     style: TextStyle(fontSize: 15.0),
                   ),
                 ),
               ),
               //onTap: () => _changeMethod(2),
+               onTap: () => _changeMethod(1),
             ),
           ),
         ]
@@ -887,11 +888,12 @@ class _VPaymentState extends State<VPayment> {
                   Container(
                     margin: EdgeInsets.fromLTRB(10, 0, 0, 0),
                     child: !_loading
-                        ? Text(_method == 1 ? "Solicitar" : "Continuar",
+                        //? Text(_method ==1 ? "Solicitar" : "Continuar",
+                        ? Text(_method <=2 ? "Solicitar" : "Continuar",
                             style: TextStyle(
                                 fontSize: 20.0,
                                 color: Colors.white,
-//                                            fontFamily: 'FrancoisOne',
+//                              fontFamily: 'FrancoisOne',
                                 fontWeight: FontWeight.bold))
                         : SizedBox(
                             child: CircularProgressIndicator(
@@ -905,7 +907,8 @@ class _VPaymentState extends State<VPayment> {
                 ],
               ),
               onTap: !_loading
-                  ? _method == 2 ? _openAddCreditCard : _requestOrder
+                //? _method == 2 ? _openAddCreditCard : _requestOrder
+                  ? _method == 3 ? _openAddCreditCard : _requestOrder
                   : () {},
             )),
       ),

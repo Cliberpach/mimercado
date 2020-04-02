@@ -197,15 +197,33 @@ class _VCarShopState extends State<VCarShop> {
   }
 
   void openPayment() {
-    Navigator.push(
-      context,
-      MaterialPageRoute(
-        builder: (context) => VPayment(listCarrito),
-      ),
-    ).then((response) {
-      setState(() => listCarrito = response);
-      _verify();
-    });
+    if (_priceTotal >= 20) {
+      /*Pref pref1 = Pref();
+      print(pref1.stg_time_close);
+      var updatedAt = DateTime.parse(data['updated_at']);
+      print(horita.hour.toInt);
+      int hurr = horita.hour.toInt();
+      print(hurr);
+      if ((horita.hour.toInt >= 8) {
+        print("entro por k es asado las 8")
+        if (hurr <= 22) {
+          print("puede comprar");
+        }else{
+          print("hora fuera de rango");
+        }
+      }*/
+      Navigator.push(
+        context,
+        MaterialPageRoute(
+          builder: (context) => VPayment(listCarrito),
+        ),
+      ).then((response) {
+        setState(() => listCarrito = response);
+        _verify();
+      });
+    } else {
+      _modal.show(context, "El Pedido mayor S/. 20.0", " ATENCION!!!!  ");
+    }
   }
 
   void _clearCarShop(title, description) {

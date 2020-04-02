@@ -26,7 +26,7 @@ class GloblaTextField {
       filled: true,
       fillColor: Colors.white,
       int enabledBorderColor: 0xFFDFDFDF,
-      int focusedBorderColor: 0xFF99C6F6,
+      int focusedBorderColor: 0xFFFF8000,
       enabledBorderWidth: 1.0,
       focusedBorderWidth: 2.0,
       fontSize: 20.0,

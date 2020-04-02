@@ -159,7 +159,6 @@ class _VProductsState extends State<VProducts> {
               },
             ),
           );
-
         }
 
         print("Products: ${listProducts.length}");

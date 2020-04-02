@@ -163,11 +163,13 @@ class _VHomeState extends State<VHome> {
           listProducts.add(
             Container(
               width: MediaQuery.of(context).size.width,
+              
               child: WidgetProduct(
                 imgUrl:
                     product.pics.length > 0 ? product.pics[0].pic_large : "",
                 imgPlaceholder: 'assets/img/kake.png',
                 title: product.name,
+                
                 description: product.description,
                 floating: "${pref.stg_coin}${product.price.toStringAsFixed(2)}",
                 callback: () => openProduct(product),
@@ -313,7 +315,7 @@ class _VHomeState extends State<VHome> {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
         GlobalText(
-          textTitle: "Packetes - Promocionales",
+          textTitle: "Promociones",
           textColor: Config.colorPrimary,
           textFontSize: 18,
           textFontWeight: FontWeight.w500,
@@ -374,19 +376,19 @@ class _VHomeState extends State<VHome> {
       initialPage: 0,
       enableInfiniteScroll: true,
       items: listProducts,
-      // items: [1, 2, 3, 4, 5].map((i) {
-      //   return Builder(
-      //     builder: (BuildContext context) {
-      //       return Container(
-      //           width: MediaQuery.of(context).size.width,
-      //           margin: EdgeInsets.symmetric(horizontal: 5.0),
-      //           decoration: BoxDecoration(color: Colors.amber),
-      //           child: Text(
-      //             'text $i',
-      //             style: TextStyle(fontSize: 16.0),
-      //           ));
-      //     },
-      //   );
+       //items: [1, 2, 3, 4, 5].map((i) {
+       //  return Builder(
+       //    builder: (BuildContext context) {
+       //      return Container(
+       //          width: MediaQuery.of(context).size.width,
+       //          margin: EdgeInsets.symmetric(horizontal: 5.0),
+       //         decoration: BoxDecoration(color: Colors.amber),
+       //         child: Text(
+       //            'text $i',
+       //           style: TextStyle(fontSize: 16.0),
+       //         ));
+        //  },
+      //  );
       // }).toList(),
     );
     final viewResult = SafeArea(

@@ -89,7 +89,8 @@ class _VSuccessState extends State<VSuccess> {
                     ),
                     subtitle: GlobalText(
                       margin: 0,
-                      textTitle: widget.success.date_delivery,
+                      //textTitle: widget.success.date_delivery,
+                      textTitle: "MAÑANA A LAS 8:30 AM",
                     ),
                   ),
                   ListTile(

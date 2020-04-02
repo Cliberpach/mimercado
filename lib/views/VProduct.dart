@@ -74,7 +74,7 @@ class _VProductState extends State<VProduct> {
       setState(() => _loading = true);
       http.Response response = await http.post(
         "${_util.BASE_URL}/products/product",
-        body: ({"token": "${_pref.client_token}", "id": "${idProduct}"}),
+        body: ({"token": "${_pref.client_token}", "id": "${idProduct.toInt()}"}),
       );
       _rsp = jsonDecode(response.body);
 

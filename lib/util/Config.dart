@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class Config {
-  static final Color colorPrimary = Color(0xFFFA05B3);
+  static final Color colorPrimary = Color(0xFF0544FA);
   static final Color colorAccent = Color(0xFFF25369);
   static final Color colorBackground = Colors.white;
   static final Color colorTransparent = Color(0x00000000);

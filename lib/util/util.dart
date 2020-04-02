@@ -11,26 +11,27 @@ class Util {
 
   final String BRAND = "Mi Mercado";
 
-  final int bluePrimary = 0xFF3AEFF7; //celeste tono claro
-  final int pinkPrimary = 0xFFF19BC1; //Rosado
-  final int brownPrimary = 0xFF322626; //Marron
-  final int leadPrimary = 0xFF260B36; //Plomo
+  final int bluePrimary = 0xFF0544FA ; //celeste tono claro
+  final int pinkPrimary = 0xFF0544FA ; //Rosado
+  final int brownPrimary = 0xFF0544FA ; //Marron
+  final int leadPrimary = 0xFF0544FA ; //Plomo
   final int whitePrimary = 0xFFFFFFFF; //Plomo
   final int blackPrimary = 0xFF43484C; //Negro
-  final int greenPrimary = 0xFF25C48A; //Verde
-  final int brownAccent = 0xFF57381F; //Marron
+  final int greenPrimary = 0xFFFF8000; //Verde
+  final int brownAccent = 0xFFFF8000; //Marron
   final int leadAccent = 0xFF9F9F9D; //Plomo
   final int yellowAccent = 0xFFFFE793; //Amarillo
-  final int greenAccent = 0xFF00CED3; //Verde
-  final int blackAccent = 0xFF808185; //Negro
-
-  final int rosado = 0xFFFA0055; //rosado
+  final int greenAccent = 0xFFFF8000; //Verde
+  final int blackAccent = 0xFFFF8000; //Negro
+   ///0xFF0544FA   azul ultramar
+   //////  0xFFFF8000 naranja
+  final int rosado = 0xFF0544FA; //rosado
   final int texto = 0XFF888888; //color texto
   final int shadow = 0XFF494949; //color sombra
   final int ambar = 0xFFF79900; //color amarillo
 
-  final int primaryColor = 0xFFFA05B3;
-  final int accentColor = 0xFFD20097;
+  final int primaryColor = 0xFF0544FA;
+  final int accentColor = 0xFF0544FA;
   final int colorUno = 0xFFAAEAF3;
   final int colorDos = 0xFF71D8E5;
   final int colorTres = 0xFF625C77;

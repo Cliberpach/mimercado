@@ -179,10 +179,9 @@ class _VLoginState extends State<VLogin> {
     );
 
     final logoAnvic = Container(
-      height: 320,
-
+      height: MediaQuery.of(context).size.width * 0.6,
+      //height: 320,
       decoration: BoxDecoration(
-
           image: DecorationImage(
         image: AssetImage("assets/img/logo_png.png"),
       )),

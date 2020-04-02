@@ -53,12 +53,11 @@ class _VPackageState extends State<VPackage> {
       listProducts = [];
     });
     try {
+      
       setState(() => _loading = true);
-      print(_pref.client_token);
-      print(idPackage);
       http.Response response = await http.post(
-          "${_util.BASE_URL}/packages/package",
-          body: ({"token": "${_pref.client_token}", "id": "${idPackage}"}));
+          "${_util.BASE_URL}/packages/package/$idPackage",
+          body: ({"token": "${_pref.client_token}"}));
       _rsp = jsonDecode(response.body);
 
       print(_rsp);
